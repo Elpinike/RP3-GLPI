@@ -3,7 +3,6 @@
 </p>
 
 <h1 align="center">Déploiement GLPI 10</h1>
-<h3 align="center">solution ITSM pour PME</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/GLPI-10.0.17-FEC928?logo=glpi&logoColor=white"/>
