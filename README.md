@@ -2,7 +2,8 @@
   <img src="assets/logo.png" width="200"/>
 </p>
 
-<h1 align="center">Déploiement GLPI 10 : solution ITSM pour PME</h1>
+<h1 align="center">Déploiement GLPI 10</h1>
+<h3 align="center">solution ITSM pour PME</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/GLPI-10.0.17-FEC928?logo=glpi&logoColor=white"/>
@@ -18,7 +19,7 @@
 </p>
 
 <p align="center">
-  Réalisation professionnelle E4 — BTS SIO option SLAM, session 2026.
+  Réalisation en autonomie pour le BTS SIO option SLAM, session 2026.
 </p>
 
 ---
@@ -61,16 +62,6 @@ Mise en place d'une solution de gestion de parc informatique et de helpdesk pour
 Les supports de formation référencent **FusionInventory**, plugin historique utilisé avec GLPI 9.x. Depuis la sortie de GLPI 10 (juin 2022), cette fonctionnalité a été **intégrée nativement** au cœur de l'application. FusionInventory n'est plus maintenu pour les versions actuelles et son usage est déconseillé par l'éditeur.
 
 Ce projet utilise donc le **GLPI Agent** (successeur officiel, maintenu par Teclib) et l'inventaire natif de GLPI 10 — un choix délibéré issu d'une démarche de veille technologique.
-
-## Compétences E4 couvertes
-
-| Compétence | Mise en œuvre |
-|-----------|--------------|
-| ✔ Gérer le patrimoine informatique | Inventaire automatique via GLPI Agent, fiche matériel complète |
-| ✔ Répondre aux incidents et demandes | 3 tickets incident traités : attribution, suivi, résolution |
-| ✔ Mettre à disposition un service informatique | Déploiement complet sur serveur cloud, accessible publiquement |
-| ✔ Travailler en mode projet | Approche en 5 phases, documentation à chaque étape |
-| ✔ Organiser son développement professionnel | Veille FusionInventory → inventaire natif, choix cloud argumenté |
 
 ## Fichiers de configuration
 
