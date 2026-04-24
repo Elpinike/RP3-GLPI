@@ -38,7 +38,7 @@ Mise en place d'une solution de gestion de parc informatique et de helpdesk pour
 ## Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" width="580"/>
+  <img src="assets/architecture.png" width="550"/>
 </p>
 
 ## Fonctionnalités démontrées
@@ -48,17 +48,17 @@ Mise en place d'une solution de gestion de parc informatique et de helpdesk pour
 | Inventaire automatique | Remontée hardware/software du poste Windows via GLPI Agent (processeur, RAM, OS, logiciels installés) |
 | Gestion d'actifs | Fiche matériel enrichie : utilisateur assigné, localisation, statut |
 | Helpdesk ITIL | Portail self-service, création de tickets par l'utilisateur final |
-| Cycle de vie ticket | Nouveau → En cours (attribué) → Résolu, avec suivi et solution documentée |
-| Profils utilisateurs | Super-Admin, Technicien, Self-Service — ségrégation des accès vérifiée |
-| Statistiques | Tableau de bord Assistance → Statistics avec historique d'activité |
+| Cycle de vie ticket | Nouveau -> En cours (attribué) -> Résolu, avec suivi et solution documentée |
+| Profils utilisateurs | Super-Admin, Technicien, Self-Service : ségrégation des accès vérifiée |
+| Statistiques | Tableau de bord Assistance -> Statistics avec historique d'activité |
 
 ## Veille technologique : inventaire natif vs FusionInventory
 
 Les supports de formation référencent **FusionInventory**, plugin historique utilisé avec GLPI 9.x. Depuis la sortie de GLPI 10 (juin 2022), cette fonctionnalité a été **intégrée nativement** au cœur de l'application. FusionInventory n'est plus maintenu pour les versions actuelles et son usage est déconseillé par l'éditeur.
 
-Ce projet utilise donc le **GLPI Agent** (successeur officiel, maintenu par Teclib) et l'inventaire natif de GLPI 10 — un choix délibéré issu d'une démarche de veille technologique.
+Ce projet utilise donc le **GLPI Agent** (successeur officiel, maintenu par Teclib) et l'inventaire natif de GLPI 10, un choix délibéré issu d'une démarche de veille technologique.
 
 ## Fichiers de configuration
 
-- [`config/glpi.conf`](config/glpi.conf) — VirtualHost Apache (DocumentRoot vers `/public/`, mod_rewrite)
-- [`config/agent.cfg`](config/agent.cfg) — Configuration GLPI Agent (URL serveur, port interface locale)
+- [`config/glpi.conf`](config/glpi.conf) : VirtualHost Apache
+- [`config/agent.cfg`](config/agent.cfg) : Configuration GLPI Agent (URL serveur, port interface locale)
