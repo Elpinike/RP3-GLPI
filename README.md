@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="80"/>
+  <img src="assets/logo.png"/>
 </p>
 
 <h1 align="center">Déploiement GLPI 10 : solution ITSM pour PME</h1>
@@ -42,7 +42,7 @@ Mise en place d'une solution de gestion de parc informatique et de helpdesk pour
 ## Architecture
 
 <p align="center">
-  <img src="assets/architecture.png"/>
+  <img src="assets/architecture.png" width="680"/>
 </p>
 
 ## Fonctionnalités démontrées
