@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="100"/>
+  <img src="assets/logo.png" width="200"/>
 </p>
 
 <h1 align="center">Déploiement GLPI 10</h1>
@@ -15,10 +15,6 @@
 
 <p align="center">
   Déploiement complet d'une instance GLPI 10 sur serveur cloud (DigitalOcean), avec inventaire automatisé via GLPI Agent et gestion de tickets selon le cycle de vie ITIL.
-</p>
-
-<p align="center">
-  Réalisation en autonomie pour le BTS SIO option SLAM, session 2026.
 </p>
 
 ---
