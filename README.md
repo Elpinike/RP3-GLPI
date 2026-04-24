@@ -2,7 +2,7 @@
   <img src="assets/logo.png" width="80"/>
 </p>
 
-<h1 align="center">Déploiement GLPI 10 — Solution ITSM pour PME</h1>
+<h1 align="center">Déploiement GLPI 10 : solution ITSM pour PME</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/GLPI-10.0.17-FEC928?logo=glpi&logoColor=white"/>
@@ -41,11 +41,9 @@ Mise en place d'une solution de gestion de parc informatique et de helpdesk pour
 
 ## Architecture
 
-```
 <p align="center">
   <img src="assets/architecture.png"/>
 </p>
-```
 
 ## Fonctionnalités démontrées
 
